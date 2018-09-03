@@ -4,7 +4,7 @@ MAINTAINER storezhang "storezhang@gmail.com"
 
 ENV SSR_DATA="/ssr-data"
 
-EXPOSE 1081
+EXPOSE 1080
 
 VOLUME ${SSR_DATA}
 WORKDIR ${SSR_DATA}
